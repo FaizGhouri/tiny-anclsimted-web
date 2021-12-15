@@ -1,0 +1,140 @@
+.NavBar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around ;
+    width: 100%;
+    padding: 40px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    margin: auto;
+    z-index: 1 ;
+}
+
+@font-face {
+    font-family: 'Muli-Regular';
+    src: url(../../Font/Muli-Regular.ttf);
+}
+
+.Logo {
+    display: flex;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: bold;
+    position: relative;
+    left: 20px;
+    font-family: 'Muli-Regular';
+}
+
+.hash {
+    color: rgb(34, 99, 185);
+}
+
+.button {
+    background-color: transparent !important;
+    color: black !important;
+    position: relative;
+    left: 10%;
+}
+
+.button:hover {
+    color: rgb(34, 99, 185) !important;
+}
+
+.Icon-Btn-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 25%;
+    margin: auto;
+    position: relative;
+    left: 150px;
+}
+
+.IconBtn-1 {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.IconBtn-2 {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.IconBtn-1:hover, .IconBtn-2:hover {
+    color: rgb(34, 99, 185);
+}
+
+
+.container-2 {
+    width: 200px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+}
+
+.container-2 input#search {
+    width: 30px;
+    height: 30px;
+    background: none;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #262626;
+    padding-left: 35px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: black;
+
+    -webkit-transition: width .55s ease;
+    -moz-transition: width .55s ease;
+    -ms-transition: width .55s ease;
+    -o-transition: width .55s ease;
+    transition: width .55s ease;
+}
+
+.container-2 input#search::-webkit-input-placeholder {
+    color: black;
+}
+
+.container-2 input#search:-moz-placeholder {
+    /* Firefox 18- */
+    color: black;
+}
+
+.container-2 input#search::-moz-placeholder {
+    /* Firefox 19+ */
+    color: black;
+}
+
+.container-2 input#search:-ms-input-placeholder {
+    color: black;
+}
+
+.container-2 .icon {
+    position: absolute;
+    top: 20%;
+    margin-left: 10px;
+    /* margin-top: 10px; */
+    z-index: 1;
+    color: black;
+}
+
+.container-2 input#search:focus, .container-2 input#search:active {
+    outline: none;
+    width: 200px;
+}
+
+.container-2:hover input#search {
+    width: 200px;
+    background: lightgray;
+}
+
+.container-2:hover .icon {
+    color: rgb(34, 99, 185);
+}

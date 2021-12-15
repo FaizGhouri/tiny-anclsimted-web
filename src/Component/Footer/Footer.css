@@ -1,0 +1,240 @@
+.Main-Footer-Div {
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    position: relative;
+    top: 2100px;
+    z-index: -1;
+}
+
+.Footer-div {
+    width: 100%;
+    height: 600px;
+    background-color: #252525;
+    padding: 10px;
+}
+
+.Address-Send-Div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.Address-div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 26%;
+    padding: 10px;
+}
+
+.Logo-1 {
+    display: flex;
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: bold;
+    position: relative;
+    padding-top: 70px;
+    font-family: 'Muli-Regular';
+    color: #fff;
+    text-align: left;
+}
+
+.hash-1 {
+    color: rgb(34, 99, 185);
+}
+
+.Excepteur-Text {
+    color: #707070;
+    font-size: 14px;
+    line-height: 26px;
+    font-family: 'Muli-Regular';
+    width: 95%;
+    padding-top: 20px;
+}
+
+.address-hr {
+    background-color: #707070;
+}
+
+.Address-Text, .Email-Text {
+    font-size: 14px;
+    line-height: 26px;
+    color: #707070;
+    padding-top: 10px;
+
+}
+
+.Email-Text, .Phone-Text {
+    font-size: 14px;
+    line-height: 26px;
+    color: #707070;
+    padding-top: 1px;
+    transition: all ease .5s;
+}
+
+.Email-Text:hover, .Phone-Text:hover {
+    color: rgb(34, 99, 185);
+    cursor: pointer;
+}
+
+.A-text, .E-Text, .P-Text {
+    color: rgb(34, 99, 185);
+}
+
+.Leonard-text {
+    font-size: 14px;
+    line-height: 26px;
+    font-family: 'Muli-Regular';
+    color: #707070;
+}
+
+.fa-twitter {
+    font-size: 18px;
+}
+
+.twitter-Span {
+    color: rgb(34, 99, 185);
+}
+
+.Leonard-div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 24%;
+    height: 400px;
+    padding: 10px;
+    position: relative;
+    top: 130px;
+}
+
+.Send-Message-Div{
+    background-color: #fff;
+    width: 33%;
+    height: 435px;
+    position: relative;
+    top: 88px;
+    padding: 40px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.We-Text{
+    font-size: 25px;
+    line-height: 30px;
+    font-family: 'Muli-Regular';
+    color: #707070;
+    letter-spacing: 1.4px;
+}
+
+.Inputs-Div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    height: 180px;
+    position: relative;
+    top: -20px;
+}
+
+.Name-input{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #e0dfdf;
+    padding: 10px;
+    outline-style: none;
+}
+.Name-Comment{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #e0dfdf;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    outline-style: none;
+}
+
+.SM-Btn{
+    border: 1px solid #252525;
+    padding: 8px;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 26px;
+    font-family: 'Muli-Regular';
+    letter-spacing: 2.4px;
+    font-weight: 600;
+    width: 50%;
+    transition: all ease .5s;
+}
+
+.SM-Btn:hover{
+    border: 1px solid rgb(14, 97, 204);
+    color: rgb(14, 97, 206);
+}
+
+.gap-hr{
+    background-color: #707070;
+    width: 55%;
+    position: relative;
+    top: 10px;
+    left: 47px;
+}
+
+.ACTPSC-Div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 55%;
+    position: relative;
+    top: 20px;
+    left: 42px;
+
+}
+
+.About-Btn{
+    background-color: transparent;
+    border: none;
+    font-weight: 600;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 10px;
+    font-family: 'Muli-Regular';
+    color: #707070;
+    letter-spacing: 2.4px;
+    transition: all ease .5s;
+}
+
+.About-Btn:hover{
+    color: rgb(34, 99, 185);
+}
+
+.Btn-hr{
+    background-color: #9b9b9b;
+    width: 15px;
+    transform: rotate(-90deg);
+}
+
+
+.CR-Div{
+    width: 35%;
+    position: relative;
+    left: 62%;
+}
+
+.CR-Text{
+    font-size: 12px;
+    letter-spacing: 1.4px;
+    color: #707070;
+    text-align: right;
+    font-family: 'Muli-Regular';
+}

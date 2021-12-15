@@ -1,0 +1,87 @@
+.carousel{
+    z-index: -1; 
+    position: relative;
+    top: 58px;
+}
+
+.Carousel-Item-1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    
+}
+
+.d-block {
+    width: 50%;
+    height: auto;
+    position: relative;
+    right: 80px;
+}
+
+.Text-Div {
+    position: relative;
+    top: 10rem;
+    left: 80px;
+    width: 25%;
+    height: max-content;
+    line-height: 1px;
+}
+
+.Love {
+    font-size: 25px;
+    letter-spacing: .5rem;
+    font-weight: 500;
+    line-height: 15px;
+    width: 250px;
+}
+
+.Unique-Text {
+    font-size: 70px;
+    letter-spacing: .4rem;
+    font-weight: 300;
+    line-height: 70px;
+}
+
+.hash-1 {
+    color: rgb(34, 99, 185);
+    font-weight: bold;
+}
+
+.Create-Text {
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Box-div {
+    background-color: none;
+    border: 23px solid rgb(34, 99, 185);
+    width: 50%;
+    height: 450px;
+    position: relative;
+    top: 5rem;
+    left: 45px;
+    z-index: -1;
+}
+
+.Soical-Icon-Div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    top: 300px;
+    left: 180px;
+}
+
+.fb-Icon, .fa-twitter, .fa-google-plus, .pinterest {
+    font-size: 30px;
+    transition: all ease-in .2s;
+    cursor: pointer;
+}
+
+.fb-Icon:hover, .pinterest:hover, .fa-google-plus:hover, .fa-twitter:hover {
+    color: rgb(34, 99, 185);
+}
+

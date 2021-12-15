@@ -1,0 +1,23 @@
+.scroll-to-top {
+    background-color: #252525;
+    transform: scale(2.3);
+    border-radius: 70px;
+    width: 4%;
+    height: 55px;
+    position: fixed;
+    bottom: 5vh;
+    right: 10px;
+    opacity: 1;
+    font-size: 30px;
+    cursor: pointer;
+}
+.scroll-to-top:hover{
+    background-color: #252525e5;
+}
+
+.fa-arrow-up {
+    position: relative;
+    top: 3px;
+    left: 13px;
+    color: rgb(34, 99, 185);
+}
